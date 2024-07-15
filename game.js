@@ -37,6 +37,7 @@ export class Game {
             console.log("You lose!")
         }
         console.log("HMAC key: ", this.hmac.key)
+        console.log("\n\n")
 
         this.reset()
     }
