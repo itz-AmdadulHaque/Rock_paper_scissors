@@ -1,0 +1,16 @@
+{
+  "name": "3_rock_paper_scisor",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "rock, paper, scisor game extended with aditinal moves",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Amdadul Haque",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table3": "^0.6.5"
+  }
+}
