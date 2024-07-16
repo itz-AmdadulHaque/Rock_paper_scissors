@@ -8,17 +8,17 @@ export function isArgValid(inputs) {
   if (inputs.length < 3) {
     valid = false;
     console.log("Error: 3 or more then 3 Moves are require to start the Game");
-    console.log("Exmple: node main.js rock paper scissors");
+    console.log("Exmple: npm start rock paper scissors");
   }
   if (inputs.length % 2 === 0) {
     valid = false;
     console.log("Error: Total moves has to be odd number");
-    console.log("like, 3, 4, 7, ...");
+    console.log("like, 3, 5, 7, ...");
   }
   if (!areElementsUnique(inputs)) {
     valid = false;
     console.log("Error: Moves Name have to be uniqe");
-    console.log("Exmple: node main.js rock paper scissors");
+    console.log("Exmple: npm start rock paper scissors");
   }
 
   if (valid === false) {

@@ -34,7 +34,7 @@ async function startGame() {
       if (input > 0 && input <= game.moves.moves.length) {
         game.printResult(input);
       } else {
-        console.log("Error: Input must match available moves");
+        console.log("Error: Input must match available moves number");
       }
     }
   }
